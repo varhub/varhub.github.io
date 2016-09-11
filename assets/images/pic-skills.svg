@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="skills" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 91.5 91.5" enable-background="new 0 0 91.5 91.5" xml:space="preserve">
+
+<style type="text/css">
+	.level { display: none; }
+	.level:target { display: block; }
+</style>
+<g id="basic">
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#1a1e23" d="M11.4,0c6.3,0,11.4,5.1,11.4,11.4v68.6c0,6.3-5.1,11.4-11.4,11.4
+		S0,86.4,0,80.1V11.4C0,5.1,5.1,0,11.4,0z"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#A3C1C9" d="M45.8,0c6.3,0,11.4,5.1,11.4,11.4v68.6c0,6.3-5.1,11.4-11.4,11.4
+		s-11.4-5.1-11.4-11.4V11.4C34.3,5.1,39.4,0,45.8,0z"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#A3C1C9" d="M80.1,0c6.3,0,11.4,5.1,11.4,11.4v68.6c0,6.3-5.1,11.4-11.4,11.4
+		s-11.4-5.1-11.4-11.4V11.4C68.6,5.1,73.7,0,80.1,0z"/>
+</g>
+<g id="medium" class="level">
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#1a1e23" d="M11.4,0c6.3,0,11.4,5.1,11.4,11.4v68.6c0,6.3-5.1,11.4-11.4,11.4
+		S0,86.4,0,80.1V11.4C0,5.1,5.1,0,11.4,0z"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#1a1e23" d="M45.8,0c6.3,0,11.4,5.1,11.4,11.4v68.6c0,6.3-5.1,11.4-11.4,11.4
+		s-11.4-5.1-11.4-11.4V11.4C34.3,5.1,39.4,0,45.8,0z"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#A3C1C9" d="M80.1,0c6.3,0,11.4,5.1,11.4,11.4v68.6c0,6.3-5.1,11.4-11.4,11.4
+		s-11.4-5.1-11.4-11.4V11.4C68.6,5.1,73.7,0,80.1,0z"/>
+</g>
+<g id="high" class="level">
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#1a1e23" d="M11.4,0c6.3,0,11.4,5.1,11.4,11.4v68.6c0,6.3-5.1,11.4-11.4,11.4
+		S0,86.4,0,80.1V11.4C0,5.1,5.1,0,11.4,0z"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#1a1e23" d="M45.8,0c6.3,0,11.4,5.1,11.4,11.4v68.6c0,6.3-5.1,11.4-11.4,11.4
+		s-11.4-5.1-11.4-11.4V11.4C34.3,5.1,39.4,0,45.8,0z"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#1a1e23" d="M80.1,0c6.3,0,11.4,5.1,11.4,11.4v68.6c0,6.3-5.1,11.4-11.4,11.4
+		s-11.4-5.1-11.4-11.4V11.4C68.6,5.1,73.7,0,80.1,0z"/>
+</g>
+</svg>

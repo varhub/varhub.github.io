@@ -1,0 +1,79 @@
+.list-default>li, .list-default>dt {
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.list-inline:not(.base) dt, .list-inline:not(.base) dd, .list-inline:not(.base) li {
+    font-size: 24px;
+    font-family: Proximanova,Helvetica,Arial,sans-serif;
+}
+.list-inline dt, .list-inline dd, .list-inline li {
+    display: inline-block;
+}
+
+.list-skills {
+  background-color: #1a1e23;
+}
+
+.sticker-skill {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+    position: relative;
+    /*top: -2px;*/
+    display: inline-table;
+    padding: 12px 20px;
+    border-radius: 15px;
+    font-family: Proximanova,Helvetica,Arial,sans-serif;
+    border: 0;
+    margin: 0 5px 0 0;
+    color: #2d3133;
+    background-color: #d5e1e5;
+    background-color: #03a9f4;
+    background-color: #ffffff;
+}
+
+
+.sticker-skill img {
+    margin: 0 10px 0 0;
+    vertical-align: text-top;
+    width: 24px;
+}
+
+.skills-lang li {
+  /*color: #2d3133;*/
+  background-color: #8de6c7;
+  padding: 12px 20px;
+}
+
+.skills-char li {
+  /*color: #2d3133;*/
+  background-color: hsl(199, 88%, 80%);
+  padding: 12px 20px;
+}
+
+
+/* Small devices */
+@media only screen (max-width : 480px) {
+
+.sticker-skill {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.sticker-skill img {
+    margin: 0 5px 0 0;
+    vertical-align: text-top;
+    height: 16px;
+}
+
+.skills-lang li {
+  padding: 6px 10px;
+}
+
+.skills-char li {
+  padding: 6px 10px;
+}
+
+}
