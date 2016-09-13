@@ -1350,6 +1350,9 @@ Resume Timeline
     font-weight: 300;
     text-transform: uppercase;
 }
+.the-category a:not(:last-child):after {
+  content: ", "
+}
 
 .entry-title {
     font-size: 16px;
