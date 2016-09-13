@@ -1,3 +1,12 @@
+@charset "UTF-8";
+/*!
+Responsive InfoJobs-like Skills CSS
+skills-ij.css - https://github.com/varhub/iamx-html
+
+Copyright (c) 2016 Victor Arribas
+Licensed under the MIT license - http://opensource.org/licenses/MIT
+*/
+
 .list-default>li, .list-default>dt {
     display: block;
     position: relative;
@@ -16,6 +25,10 @@
   background-color: #1a1e23;
 }
 
+.list-skills li {
+    padding: 12px 20px;
+}
+
 .sticker-skill {
     font-size: 24px;
     line-height: 28px;
@@ -26,40 +39,47 @@
     padding: 12px 20px;
     border-radius: 15px;
     font-family: Proximanova,Helvetica,Arial,sans-serif;
+    vertical-align: middle;
     border: 0;
     margin: 0 5px 0 0;
     color: #2d3133;
-    background-color: #d5e1e5;
-    background-color: #03a9f4;
     background-color: #ffffff;
 }
 
 
 .sticker-skill img {
     margin: 0 10px 0 0;
-    vertical-align: text-top;
+    vertical-align: middle;
     width: 24px;
 }
 
 .skills-lang li {
   /*color: #2d3133;*/
   background-color: #8de6c7;
-  padding: 12px 20px;
 }
 
 .skills-char li {
   /*color: #2d3133;*/
   background-color: hsl(199, 88%, 80%);
-  padding: 12px 20px;
+}
+
+.skills-top li {
+  /*color: #2d3133;*/
+  background-color: #fff2ca;
 }
 
 
 /* Small devices */
 @media only screen (max-width : 480px) {
 
+.list-skills li {
+    padding: 6px 10px;
+}
+
 .sticker-skill {
     font-size: 12px;
     line-height: 14px;
+    padding: 6px 10px;
 }
 
 .sticker-skill img {
@@ -68,12 +88,7 @@
     height: 16px;
 }
 
-.skills-lang li {
-  padding: 6px 10px;
-}
 
-.skills-char li {
-  padding: 6px 10px;
-}
+
 
 }
