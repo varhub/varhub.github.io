@@ -242,7 +242,7 @@ hr {
 
 /* LIST STYLE
 -------------------------------------------------- */
-ul, ol {
+ul.nolist-style, ol.nolist-style {
     margin     : 0;
     padding    : 0;
     list-style : none
@@ -593,6 +593,7 @@ SOCIAL ICON
 
 .biography ul{
     padding:25px 20px 30px;
+	list-style : none;
 }
 
 .biography ul li{
@@ -777,7 +778,8 @@ Resume Timeline
 
 .timeline>li.timeline-inverted>.timeline-panel {
     float: right;
-    text-align: left;
+    /*text-align: left;*/
+	text-align: justify;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel:before {
@@ -831,7 +833,8 @@ Resume Timeline
 .timeline>li .timeline-panel {
     float: left;
     width: 43%;
-    text-align: right;
+    /*text-align: right;*/
+	text-align: justify;
     border: 1px solid #eee;
     position: relative;
 }
