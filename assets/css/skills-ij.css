@@ -12,11 +12,12 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
     position: relative;
     margin-bottom: 10px;
 }
-
+/*
 .list-inline:not(.base) dt, .list-inline:not(.base) dd, .list-inline:not(.base) li {
     font-size: 24px;
     font-family: Proximanova,Helvetica,Arial,sans-serif;
 }
+*/
 .list-inline dt, .list-inline dd, .list-inline li {
     display: inline-block;
 }

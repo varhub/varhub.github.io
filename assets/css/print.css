@@ -1,0 +1,120 @@
+/*
+https://www.sitepoint.com/css-printer-friendly-pages/
+https://www.jotform.com/blog/css-perfect-print-stylesheet-98272
+*/
+@media print {
+
+/* generic */
+@page {
+	margin: 1cm;
+}
+
+header, navbar, footer { display: none; }
+
+body {
+	font-size: 11pt;
+	/*line-height: 1.3;*/
+}
+h1 {
+	font-size: 24pt;
+}
+h2, h3, h4 {
+	font-size: 14pt;
+	/*margin-top: 25px;*/
+}
+
+
+/* hidden items */
+.scroll-up { display: none !important }
+.social-icons { display: none; }
+.mouse-icon { display: none; }
+.download-button { display: none; }
+.video-section { display: none; }
+
+#undefined-sticky-wrapper { display: none; }
+#video { display: none; height: 0cm; }
+#portfolio { display: none; }
+#projects { display: none; }
+#contact { display: none; }
+
+
+/* regenerate css */
+
+#home {
+	height: 4cm !important;
+	background-color: #161a2f;
+	/*background: url(../images/home2.jpg) no-repeat center center;
+    background-attachment: fixed;
+	background-size: cover;
+	padding: 0;
+	position: relative;*/
+	padding: 20px;
+}
+.intro {
+	text-align: center;
+	color: #f7f7f7;
+}
+.intro-sub {
+	font-size: 14pt;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.intro h1{
+	font-size: 18pt;
+	text-transform: uppercase;
+	color: #52b3d9;
+}
+.intro h1 span {
+    color: #68c3a3;
+}
+
+
+
+img { width:100%;}
+.col-md-4 {
+	display: inline-block;
+	width: 20%;
+	margin-left: 5%;
+	vertical-align: top;
+}
+.col-md-8 {
+	display: inline-block;
+	width: 70%;
+	vertical-align: top;
+}
+
+.nolist-info { padding-inline-start: 0; }
+.nolist-info li { list-style: none; }
+
+
+/* tune css */
+.section-title {
+	text-decoration: underline;
+}
+
+#about {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.timeline-content h3 {
+	margin: 5px;
+}
+
+.timeline>li{
+	margin-bottom: 20px;
+}
+
+.sticker-skill {
+    font-size: 12pt;
+    line-height: 1.4;
+}
+.list-skills {
+	background: inherit;
+}
+
+/* page break */
+#about, #resume {page-break-after: always;}
+.timeline li {page-break-inside: avoid;}
+
+}
