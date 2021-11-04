@@ -18,53 +18,47 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
     font-family: Proximanova,Helvetica,Arial,sans-serif;
 }
 */
-.list-inline dt, .list-inline dd, .list-inline li {
+.list-inline>dt, .list-inline>dd, .list-inline>li {
     display: inline-block;
 }
 
-.list-skills {
-  background-color: #1a1e23;
-}
 
-.list-skills li {
-    padding: 12px 20px;
+.sticker-skill {
+    position: relative;
+    display: inline-table;
+    font-family: Proximanova,Helvetica,Arial,sans-serif;
+    border: 0;
+	border-radius: 15px;
+    color: #2d3133;
+    background-color: #ffffff;
 }
 
 .sticker-skill {
     font-size: 24px;
     line-height: 28px;
-    font-weight: bold;
-    position: relative;
-    /*top: -2px;*/
-    display: inline-table;
     padding: 12px 20px;
-    border-radius: 15px;
-    font-family: Proximanova,Helvetica,Arial,sans-serif;
-    vertical-align: middle;
-    border: 0;
-    margin: 0 5px 0 0;
-    color: #2d3133;
-    background-color: #ffffff;
+}
+.list-skills>li {  /*bootstrap fixup*/
+    padding: 12px 20px;
 }
 
-
-.sticker-skill img {
+.sticker-skill>img {
     margin: 0 10px 0 0;
-    vertical-align: middle;
-    width: 24px;
+    vertical-align: text-top;
+    width: 28px;
 }
 
-.skills-lang li {
+.skills-lang>li {
   /*color: #2d3133;*/
   background-color: #8de6c7;
 }
 
-.skills-char li {
+.skills-char>li {
   /*color: #2d3133;*/
   background-color: hsl(199, 88%, 80%);
 }
 
-.skills-top li {
+.skills-top>li {
   /*color: #2d3133;*/
   background-color: #fff2ca;
 }
@@ -73,23 +67,20 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 /* Small devices */
 @media only screen (max-width : 480px) {
 
-.list-skills li {
-    padding: 6px 10px;
-}
-
 .sticker-skill {
     font-size: 12px;
     line-height: 14px;
     padding: 6px 10px;
 }
 
-.sticker-skill img {
+.sticker-skill>img {
     margin: 0 5px 0 0;
     vertical-align: text-top;
-    height: 16px;
+    height: 14px;
 }
 
-
-
+.list-skills>li {  /*bootstrap fixup*/
+    padding: 6px 10px;
+}
 
 }
