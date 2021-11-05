@@ -12,15 +12,26 @@ https://www.jotform.com/blog/css-perfect-print-stylesheet-98272
 header, navbar, footer { display: none; }
 
 body {
-	font-size: 11pt;
+	font-size: 9pt;
 	/*line-height: 1.3;*/
 }
 h1 {
-	font-size: 24pt;
+	font-size: 14pt;
 }
 h2, h3, h4 {
-	font-size: 14pt;
+	font-size: 12pt;
 	/*margin-top: 25px;*/
+	margin-block-end: 0em;
+}
+
+p {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+.biography {
+	font-size: 8pt;
+	text-align: left;
 }
 
 
@@ -43,26 +54,26 @@ h2, h3, h4 {
 /* regenerate css */
 
 #home {
-	height: 4cm !important;
+	height: inherit !important;
 	background-color: #161a2f;
 	/*background: url(../images/home2.jpg) no-repeat center center;
     background-attachment: fixed;
 	background-size: cover;
 	padding: 0;
 	position: relative;*/
-	padding: 20px;
+	padding: 10px;
 }
 .intro {
 	text-align: center;
 	color: #f7f7f7;
 }
 .intro-sub {
-	font-size: 14pt;
+	font-size: 11pt;
 	font-weight: 700;
 	text-transform: uppercase;
 }
 .intro h1{
-	font-size: 18pt;
+	font-size: 12pt;
 	text-transform: uppercase;
 	color: #52b3d9;
 }
