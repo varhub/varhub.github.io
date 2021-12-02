@@ -204,6 +204,7 @@
 
 
     <!-- Video Section -->
+	<!--
     <section id="video" class="video-section">
       <div class="tf-bg-overlay">
         <div class="container">
@@ -213,7 +214,6 @@
               <h2>Participant's cut-off</h2>
             </div>
 
-            <!-- Video Modal -->
             <div class="modal modal-video" id="tour-video">
               <div class="modal-dialog modal-lg">
                 <div class="modal-content">
@@ -224,22 +224,16 @@
                   <div class="modal-body">
                     <div class="video-container">
                       <iframe src="https://player.vimeo.com/video/182283177" name="vimeoplayer" id="nofocusvideo" width="500" height="281"></iframe>
-                    </div><!--/.video-container-->
+                    </div>
                   </div>
-                  <!--/.modal-body-->
                 </div>
-                <!--/.modal-content-->
               </div>
-              <!--/.modal-dialog-->
             </div>
-            <!--/.modal-->
           </div>
-          <!--/.control-->
         </div>
-        <!--/.container-->
       </div>
-      <!--/.overlay-->
     </section>
+	-->
     <!-- /.Video Section -->
 
 
@@ -587,6 +581,22 @@
 
         <div class="row">
           <div id="grid">
+		  
+			<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="https://i.vimeocdn.com/video/591122858-2ecb5a2a1f17e6c846f87406371ac3b6cd75b6314a29c499e6718233f180e3d7-d?mw=480&mh=320"><i class="fa fa-search-plus"></i></a>
+                    <a href="https://player.vimeo.com/video/182283177" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                  </div>
+                  <img src="https://i.vimeocdn.com/video/591122858-2ecb5a2a1f17e6c846f87406371ac3b6cd75b6314a29c499e6718233f180e3d7-d?mw=300&mh=169" alt="image">
+                  <div class="portfolio-info">
+                    <h3>DroneCampeones</h3>
+                  </div>
+                </div>
+              </div><
+            </div>
 
 						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all"]'>
               <div class="portfolio-bg">
@@ -683,23 +693,6 @@
               </div><!-- /.portfolio-bg -->
             </div><!-- /.portfolio-item -->
 
-						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/portfolio/git_status_by_varribas.gif"><i class="fa fa-search-plus"></i></a>
-										<a href="https://github.com/varhub/git_status" target="_blank"><i class="fa fa-github"></i></a>
-                    <!--a href="#"><i class="fa fa-link"></i></a-->
-                  </div><!-- /.links -->
-                  <img src="assets/images/portfolio/git_status_by_varribas.gif" alt="image">
-                  <div class="portfolio-info">
-                    <h3>custom VCS tools</h3>
-                  </div><!-- /.portfolio-info -->
-                </div><!-- /.portfolio -->
-              </div><!-- /.portfolio-bg -->
-            </div><!-- /.portfolio-item -->
-
           </div><!-- /#grid -->
         </div><!-- /.row -->
       </div><!-- /.container -->
@@ -711,6 +704,36 @@
 			<div class="container">
 				<h2 class="section-title fadeInUp">Projects</h2>
 				<div class="row">
+				
+					<div class="col-sm-4">
+						<article class="blog-post-wrapper">
+							<div class="figure">
+								<div class="post-thumbnail">
+									<img src="assets/images/portfolio/git_status_by_varribas.gif" class="img-responsive " alt="">
+								</div>
+									<a href="https://github.com/varhub/git_status" target="_blank">
+									<i class="fa fa-github"></i>
+									</a>
+							</div><!-- /.figure -->
+							<header class="entry-header">
+								<div class="post-meta">
+									<span class="the-category">
+										<a>git</a> <a>bash</a>
+									</span>
+								</div>
+								<h2 class="entry-title">git_status - A `git status` meaningful for big projects</h2>
+								<hr>
+								<div class="entry-meta">
+									status info of every git repository in current directory tree
+									<ul>
+										<li><i class="fa fa-check-square-o"></i> whole directory tree info </li>
+										<li><i class="fa fa-check-square-o"></i> PS1 functionality </li>
+										<li><i class="fa fa-check-square-o"></i> easy install </li>
+									</ul>
+								</div><!-- .entry-meta -->
+							</header><!-- .entry-header -->
+						</article>
+					</div><!-- /.col-sm-4 -->
 
 					<div class="col-sm-4">
 						<article class="blog-post-wrapper">
@@ -744,7 +767,9 @@
 								<div class="post-thumbnail">
 									<img src="assets/images/projects/quadrotor-gazebo.png" class="img-responsive " alt="">
 								</div>
+									<a href="https://github.com/jderobot-varribas/gazeboplugin-quadrotor2" target="_blank">
 									<i class="fa fa-github"></i>
+									</a>
 							</div><!-- /.figure -->
 							<header class="entry-header">
 								<div class="post-meta">
@@ -752,7 +777,7 @@
 										<a>Gazebo Plugins</a> <a>C++</a>
 									</span>
 								</div>
-								<h2 class="entry-title"><a href="https://github.com/jderobot-varribas/gazeboplugin-quadrotor2" target="_blank">Quadrotor2 - A ZeroC Ice based ArDrone plugin for Gazebo</a></h2>
+								<h2 class="entry-title">Quadrotor2 - A ZeroC Ice based ArDrone plugin for Gazebo</h2>
 								<hr>
 								<div class="entry-meta">
 									<ul>
@@ -773,7 +798,9 @@
 								<div class="post-thumbnail">
 									<img src="assets/images/projects/EasyIce.png" class="img-responsive " alt="">
 								</div>
+									<a href="https://github.com/jderobot-varribas/libeasyiceconfig" target="_blank">
 									<i class="fa fa-github"></i>
+									</a>
 							</div><!-- /.figure -->
 							<header class="entry-header">
 								<div class="post-meta">
@@ -781,11 +808,11 @@
 										<a>ZeroC Ice</a> <a>C++</a> <a>Python</a>
 									</span>
 								</div>
-								<h2 class="entry-title"><a href="https://github.com/jderobot-varribas/libeasyiceconfig" target="_blank">EasyIceConfig: A library to tame Ice.Config</a></h2>
+								<h2 class="entry-title">EasyIceConfig: A library to tame Ice.Config</h2>
 								<hr>
 								<div class="entry-meta">
 									<ul>
-										<li><i class="fa fa-check-square-o"></i> config files can be located in any place.</li>
+										<li><i class="fa fa-check-square-o"></i> config files can be located at any place.</li>
 										<li><i class="fa fa-check-square-o"></i> simplify Ice Proxy creation and exception managenemt.</li>
 									</ul>
 								</div><!-- .entry-meta -->
@@ -825,7 +852,7 @@
           <div class="col-md-12">
             <div class="copyright text-center">
 							<p>&copy; Victor Arribas 2016. All rights reserved.</p>
-							<p><i> Based in Ahmed Faruk Template <a href="https://github.com/ahmedfaruk/iamx-html" target="_blank">IAM X</a>. &copy; TrendyTheme 2015. All rights reserved.</i></p>
+							<p><i> Based on Ahmed Faruk Template <a href="https://github.com/ahmedfaruk/iamx-html" target="_blank">IAM X</a>. &copy; TrendyTheme 2015. All rights reserved.</i></p>
             </div>
           </div>
         </div>
