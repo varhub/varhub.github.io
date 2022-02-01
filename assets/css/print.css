@@ -64,6 +64,7 @@ p {
 	padding: 10px;
 }
 .intro {
+	line-height: inherit;
 	text-align: center;
 	color: #f7f7f7;
 }
@@ -119,8 +120,13 @@ img { width:100%;}
 }
 
 
+.list-skills {
+	margin-top: 4px;
+	margin-bottom: 2px;
+}
 .list-skills>li {
     padding: 6px 10px;
+	margin-bottom: 2px;
 }
 .sticker-skill {
     font-size: 12px;
